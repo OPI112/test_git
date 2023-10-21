@@ -27,6 +27,11 @@ def specialoffer():
     # Cтраница с акцией
     return render_template('замени_меня.html')
 
+@app.route('/card')
+def card():
+    # Cтраница с акцией
+    return render_template('card.html')
+
 @app.route('/head')
 def specialoffer():
     # Cтраница с акцией
